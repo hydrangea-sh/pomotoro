@@ -3,12 +3,13 @@
 @tailwind utilities;
 
 @supports (font-variation-settings: normal) {
-    :root {
-        font-family: InterVariable;
-    }
+	:root {
+		/* biome-ignore lint: No fallback needed */
+		font-family: InterVariable;
+	}
 }
 
 :root {
-    background-color: #ef4444;
-    transition: 0.2s ease-in;
+	background-color: #ef4444;
+	transition: 0.2s ease-in;
 }
